@@ -1,0 +1,30 @@
+body{
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+.container{
+	width: 1080px;
+	margin: auto;
+}
+.row{
+	display: flex;
+}
+.box1{
+	display: flex;
+	width: 40%;
+	margin: auto;
+	padding: 30px;
+	border: 1px solid grey;
+	border-radius: 10px;
+}
+.box1 div{
+	width: 45%;
+	margin: auto;
+}
+.box1 div img{
+	width: 100%;
+}
